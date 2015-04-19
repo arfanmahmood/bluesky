@@ -17,7 +17,7 @@ if (have_posts()) : while (have_posts()) : the_post();
       <!-- You can move inline styles to css file or css block. -->
       <!-- ================================================== -->
       <div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
-      top: 0px; left: -15px; width: 1300px; height: 500px; overflow: hidden;">
+      top: 0px; left: -15px; width: 1085px !important; height: 500px; overflow: hidden;">
           <!-- Loading Screen -->
           <div u="loading" style="position: absolute; top: 0px; left: 0px;">
               <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
@@ -28,7 +28,7 @@ if (have_posts()) : while (have_posts()) : the_post();
               </div>
           </div>
           <!-- Slides Container -->
-          <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+          <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1085px; height: 500px; overflow: hidden;">
 			  <?php
               
                $args = array(

@@ -20,6 +20,11 @@ body{
 	margin:0px; padding:0px;
 }
 
+.template-container {
+	 max-width: 1085px;
+	 margin: 0 auto;
+}
+
 .container{
 	margin:0 auto;
 }
@@ -44,6 +49,16 @@ body{
 }
 .topnav .navbar .navbar-nav > li.book_now_link_a > a{
 	padding-top:7px; padding-bottom:7px; padding-right:0px;
+}
+.title-gallery a:after {
+  color: #fff;
+  font-family: "fontAwesome";
+  content: "\f082";
+  float: left;
+  font-size: 14px;
+  cursor: pointer;
+  float: right;
+  padding: 0 10px;
 }
 
 /* Style Sheet for Top Main Section */
@@ -95,6 +110,12 @@ body{
 #bluesky-experience-section #experience-people-pics{
 	overflow:hidden; padding:20px 15px 40px;
 }
+
+.experience-people-pics img, .main-people-pics img  {
+	max-width: 450px;
+	max-height: 290px;
+}
+
 /* End of stylesheet for bluesky experience section */
 
 /* Stylesheet for entertainment section */
@@ -219,7 +240,7 @@ body{
 
 /* Package & Payment Information Section CSS */
 #package-payment-section{
-	overflow:hidden; padding:30px; background:url(img/package-info-bottom-sand-bg.jpg) #f9f7f5 50% 300px no-repeat; background-size:contain; color:#42525e; font-family: 'Open Sans', sans-serif;
+	overflow:hidden; padding:30px; background:url(img/package-info-bottom-sand-bg.jpg) #f9f7f5 50% bottom no-repeat; background-size:contain; color:#42525e; font-family: 'Open Sans', sans-serif;
 }
 #package-payment-section h2{
 	color:#57a8d7; font-size:26px; padding:0 0 10px 0; margin:0px;

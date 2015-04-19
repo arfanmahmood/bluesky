@@ -55,6 +55,8 @@
   </head>
   <body>
   
+  <div class="template-container">
+  
     <div class="container-fluid">
     
       <!-- Top Navigation Code -->

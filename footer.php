@@ -197,14 +197,14 @@
 
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
-            function ScaleSlider() {
+            /*function ScaleSlider() {
                 var bodyWidth = document.body.clientWidth;
                 if (bodyWidth)
                     jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
-            ScaleSlider();
+            ScaleSlider();*/
 
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
@@ -314,6 +314,8 @@
     
         wp_footer();
     ?>
+    
+    </div>
     
   </body>
 </html>
